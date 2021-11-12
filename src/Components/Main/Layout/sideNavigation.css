@@ -1,0 +1,50 @@
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  width: 18%;
+  height: 100vh;
+  color: white;
+}
+.empty_void {
+  position: relative;
+  background-color: #3781f1;
+  height: 6rem;
+  width: 100%;
+  z-index: 1;
+}
+aside .empty_void:nth-child(2) {
+  background-color: transparent !important;
+}
+.photo_place {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  background-color: #f0f0f9;
+  height: 9rem;
+  width: 9rem;
+  z-index: 1;
+  border-radius: 0.8rem;
+}
+.photo_place svg {
+  color: #2c2c2c;
+  height: 5rem;
+  width: auto;
+  margin: 0.5rem 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.hero_name {
+  text-align: center;
+}
+.hero_name span {
+  color: #2c2c2c;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  word-wrap: normal;
+  letter-spacing: 0;
+  display: block;
+  padding: 1px;
+}
