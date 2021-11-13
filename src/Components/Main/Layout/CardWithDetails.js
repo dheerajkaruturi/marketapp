@@ -1,13 +1,41 @@
 import React from "react";
-import './CardWithDetails.css'
-// import Card from "../Components/DetailsCard/Card";
+import "./CardWithDetails.css";
+
+import CardWithDetailsinsideData from "./CardWithDetails_insideData";
 
 const CardWithDetails = (props) => {
-    return (
-      <div className='container'>
-        <h1>Hi</h1>
+  return (
+    <div className="row">
+      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+        <CardWithDetailsinsideData
+          type="Invested"
+          value="₹ 20.32k"
+          icon="💰"
+        ></CardWithDetailsinsideData>
       </div>
-    );
+      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+        <CardWithDetailsinsideData
+          type="Holdings"
+          value="14"
+          icon="💼"
+        ></CardWithDetailsinsideData>
+      </div>
+      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+        <CardWithDetailsinsideData
+          type="Profit/Loss"
+          value="+200.32 ₹"
+          icon="📉"
+        ></CardWithDetailsinsideData>
+      </div>
+      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+        <CardWithDetailsinsideData
+          type="High Trading"
+          value="Tesla"
+          icon="🤑"
+        ></CardWithDetailsinsideData>
+      </div>
+    </div>
+  );
 };
 
 export default CardWithDetails;

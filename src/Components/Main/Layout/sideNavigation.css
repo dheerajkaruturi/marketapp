@@ -3,7 +3,7 @@ aside {
   left: 0;
   top: 0;
   background-color: #fff;
-  width: 18%;
+  width: 20%;
   height: 100vh;
   color: white;
 }
@@ -20,7 +20,7 @@ aside .empty_void:nth-child(2) {
 .photo_place {
   position: absolute;
   top: 35%;
-  left: 10%;
+  left: 14%;
   background-color: #f0f0f9;
   height: 9rem;
   width: 9rem;

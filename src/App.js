@@ -1,11 +1,13 @@
-import SideNavigation from "./Components/DetailsCard/Main/Layout/sideNavigation";
-
+import { Fragment } from "react";
+import SideNavigation from "./Components/Main/Layout/sideNavigation";
+import { MainDesign } from "./Components/MainDesign";
 
 const App = function () {
   return (
-    <div>
+    <Fragment>
       <SideNavigation />
-    </div>
+      <MainDesign/>
+    </Fragment>
   );
 };
 
