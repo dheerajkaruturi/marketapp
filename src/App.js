@@ -1,11 +1,13 @@
 import { Fragment } from "react";
 import SideNavigation from "./Components/Main/Layout/sideNavigation";
+import TopBar from "./Components/Main/Layout/TopBar";
 import { MainDesign } from "./Components/MainDesign";
 
 const App = function () {
   return (
     <Fragment>
       <SideNavigation />
+      <TopBar/>
       <MainDesign/>
     </Fragment>
   );

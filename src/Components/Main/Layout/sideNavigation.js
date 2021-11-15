@@ -4,7 +4,7 @@ import MenuItems from "../Menu-Items/MenuItems";
 
 const SideNavigation = () => {
   return (
-    <aside>
+    <aside className="d-none d-sm-none d-md-none d-lg-block">
       <div className="empty_void">
         <div className="photo_place">
           <svg

@@ -6,6 +6,7 @@ aside {
   width: 20%;
   height: 100vh;
   color: white;
+  z-index: 1;
 }
 .empty_void {
   position: relative;

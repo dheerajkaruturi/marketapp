@@ -9,7 +9,7 @@ export const MainDesign = () => {
     <section className="p-3">
       <CardWithDetails />
       <WatchList />
-      <AvailBalanceCard/>
+      <AvailBalanceCard />
     </section>
   );
 };

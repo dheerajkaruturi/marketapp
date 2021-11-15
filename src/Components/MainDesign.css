@@ -2,3 +2,10 @@ section {
   width: 80%;
   float: right !important;
 }
+@media screen and (min-width: 200px) and (max-width: 974px) {
+  section {
+    width: 100% !important;
+    margin: auto;
+    float: none !important;
+  }
+}
