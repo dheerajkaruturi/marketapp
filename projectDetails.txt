@@ -1,5 +1,9 @@
+This market app lets the user to login to his user account and check his present holdings value and also lets him to add money to his wallet so that he can purchase his shares thathe wants to 
+
 This document tells you about the folders structure.
 
 Components folder consists of all the visual part of the project
 
 Main folder consists of the all the Components files that seen in the dashboard part 
+
+orders and wishlist folder contains the wishlist items and the orders done by the user.

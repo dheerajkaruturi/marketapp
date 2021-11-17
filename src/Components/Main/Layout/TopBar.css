@@ -3,12 +3,13 @@
   top: 0;
   font-size: 1.2rem !important;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   padding: 0.5rem;
-  background-color: #f0f0f9;
+  background-color: #c8c8c8;
   width: 100% !important;
 }
 .topBar span {
   margin-right: 0.75rem;
+  cursor: pointer;
 }

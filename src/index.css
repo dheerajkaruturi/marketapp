@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 body {
   font-family: "Manrope", sans-serif;
@@ -20,4 +20,7 @@ body {
   color: #fff;
   border-radius: 2rem;
   font-weight: 600 !important;
+}
+sup{
+  font-size: 0.5rem !important;
 }
