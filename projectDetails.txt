@@ -1,0 +1,5 @@
+This document tells you about the folders structure.
+
+Components folder consists of all the visual part of the project
+
+Main folder consists of the all the Components files that seen in the dashboard part 
