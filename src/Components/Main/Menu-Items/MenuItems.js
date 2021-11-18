@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./MenuItems.css";
 
 const MenuItems = () => {
@@ -6,10 +7,12 @@ const MenuItems = () => {
     <div>
       <ul className="menuItems-nav_list">
         <li>
-          <span className="active">Dashboard</span>
+          <NavLink to="/dashboard" activeclassName="active">
+            Dashboard
+          </NavLink>
         </li>
         <li>
-          <span>Wishlist/Orders</span>
+          <NavLink to="/orders_wishlist" activeclassName="active">Wishlist/Orders</NavLink>
         </li>
         <li>
           <span>Holdings</span>

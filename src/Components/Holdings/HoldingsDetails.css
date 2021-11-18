@@ -1,0 +1,30 @@
+.nifty-card_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.holding-card_details ul {
+  list-style: none;
+}
+.holding-card_details ul li {
+  display: flex;
+  justify-content: space-around !important;
+  margin-top: 1rem;
+  color: #000;
+  font-weight: 500;
+}
+.bg-custom_success {
+  background-color: #3cdb91 !important;
+}
+.bg-custom_danger {
+  background-color: #e15260 !important;
+}
+.badge {
+  font-size: 0.7rem !important;
+  border: hidden;
+}
+table tr,
+table td,
+table th {
+  font-size: 0.75rem !important;
+}

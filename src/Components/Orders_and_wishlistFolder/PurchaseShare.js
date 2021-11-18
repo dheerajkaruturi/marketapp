@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Card from "../Main/Card/Card";
+import "./PurchaseShare.css";
 
 const PurchaseShare = (props) => {
   return (
@@ -13,7 +14,7 @@ const PurchaseShare = (props) => {
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Search Your Share..."
+                  placeholder="Search by Code..."
                   aria-label="Share name"
                   aria-describedby="button-addon2"
                 />
@@ -25,7 +26,6 @@ const PurchaseShare = (props) => {
                   Search
                 </button>
               </div>
-
               <div className="Purchase-share p-4">
                 <div className="row">
                   <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xxl-3">
@@ -54,14 +54,31 @@ const PurchaseShare = (props) => {
                   <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xxl-3">
                     <div className="form-group">
                       <label>Stock Exchange</label>
-                      <select className="form-control">
-                        <option>--select--</option>
-                        <option>BSE</option>
-                        <option>NSE</option>
-                      </select>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          NSE
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault2"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          BSE
+                        </label>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12 text-center mt-3">
+                  <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12 text-center mt-4">
                     <button className="btn btn-outline-success">
                       Buy{" "}
                       <span>

@@ -12,15 +12,20 @@ body {
   background-color: #f6f6f6;
   text-rendering: optimizeLegibility;
   letter-spacing: 1px;
+  overflow-x: hidden;
 }
-.active {
-  padding: 0.5rem 1rem;
-  margin-left: -1.2rem !important;
-  background-color: #3781f1;
-  color: #fff;
-  border-radius: 2rem;
-  font-weight: 600 !important;
-}
+
 sup{
   font-size: 0.5rem !important;
+}
+section {
+  width: 80%;
+  float: right !important;
+}
+@media screen and (min-width: 200px) and (max-width: 974px) {
+  section {
+    width: 100% !important;
+    margin: auto;
+    float: none !important;
+  }
 }

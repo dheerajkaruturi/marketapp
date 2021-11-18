@@ -6,28 +6,28 @@ import CardWithDetailsinsideData from "./CardWithDetails_insideData";
 const CardWithDetails = (props) => {
   return (
     <div className="row">
-      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-3">
         <CardWithDetailsinsideData
           type="Invested"
           value="₹ 20.32k"
           icon="💰"
         ></CardWithDetailsinsideData>
       </div>
-      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-3">
         <CardWithDetailsinsideData
           type="Holdings"
           value="14"
           icon="💼"
         ></CardWithDetailsinsideData>
       </div>
-      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-3">
         <CardWithDetailsinsideData
           type="Profit/Loss"
           value="+200.32 ₹"
           icon="📉"
         ></CardWithDetailsinsideData>
       </div>
-      <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xxl-3">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-3">
         <CardWithDetailsinsideData
           type="High Trading"
           value="Tesla"

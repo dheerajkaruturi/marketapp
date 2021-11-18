@@ -1,13 +1,12 @@
-import { Fragment } from "react";
 import Card from "../Main/Card/Card";
 import PurchaseShare from "./PurchaseShare";
 import "./WishlistItem.css";
 
 const WishlistItems = (props) => {
   return (
-    <Fragment>
+    <section className="p-3">
       <h1>Recent Orders Summary</h1>
-      <div className="row m-2">
+      <div className="row mb-2">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
           <Card className="wishlist-items">
             <div className="wishlist_Cards p-2">
@@ -53,7 +52,7 @@ const WishlistItems = (props) => {
           </Card>
         </div>
       </div>
-      <div className="row m-2">
+      <div className="row mb-2">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
           <Card className="wishlist-items">
             <div className="wishlist_Cards p-2">
@@ -99,7 +98,7 @@ const WishlistItems = (props) => {
           </Card>
         </div>
       </div>
-      <div className="row m-2 mb-3">
+      <div className="row mb-2">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
           <Card className="wishlist-items">
             <div className="wishlist_Cards p-2">
@@ -253,7 +252,7 @@ const WishlistItems = (props) => {
       </div>
       <hr />
       <PurchaseShare></PurchaseShare>
-    </Fragment>
+    </section>
   );
 };
 

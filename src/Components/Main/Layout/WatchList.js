@@ -23,35 +23,35 @@ const WatchList = () => {
                 <th scope="row">1</th>
                 <td>BHEL</td>
                 <td>23.5 ₹</td>
-                <td className="text-success fw-bold">26.55 ₹</td>
+                <td className="text-success fw-bold">↑ 26.55 ₹</td>
                 <td className="text-success fw-bold">+3.05 ₹</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>John Jacob</td>
                 <td>500.20 ₹</td>
-                <td className="text-danger fw-bold">420.90 ₹</td>
+                <td className="text-danger fw-bold">↓ 420.90 ₹</td>
                 <td className="text-danger fw-bold">-80.70 ₹</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
                 <td>AAPL</td>
                 <td>2000.36 ₹</td>
-                <td className="text-success fw-bold">2420.90 ₹</td>
+                <td className="text-success fw-bold">↑ 2420.90 ₹</td>
                 <td className="text-success fw-bold">+420.54 ₹</td>
               </tr>
               <tr>
                 <th scope="row">4</th>
                 <td>Google</td>
                 <td>1000.36 ₹</td>
-                <td className="text-success fw-bold">1420.90 ₹</td>
+                <td className="text-success fw-bold">↑ 1420.90 ₹</td>
                 <td className="text-success fw-bold">+420.54 ₹</td>
               </tr>
               <tr>
                 <th scope="row">5</th>
                 <td>Microsoft</td>
                 <td>2000.36 ₹</td>
-                <td className="text-success fw-bold">2220.90 ₹</td>
+                <td className="text-success fw-bold">↑ 2220.90 ₹</td>
                 <td className="text-success fw-bold">+220.54 ₹</td>
               </tr>
             </tbody>
