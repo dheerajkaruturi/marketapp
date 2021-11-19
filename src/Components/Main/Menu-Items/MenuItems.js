@@ -12,16 +12,19 @@ const MenuItems = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/orders_wishlist" activeclassName="active">Wishlist/Orders</NavLink>
+          <NavLink to="/orders_wishlist" activeclassName="active">
+            Wishlist/Orders
+          </NavLink>
         </li>
         <li>
-          <span>Holdings</span>
+          <NavLink to="/holdings" activeClassName="active">
+            Holdings
+          </NavLink>
         </li>
         <li>
-          <span>funds</span>
-        </li>
-        <li>
-          <span>commodity</span>
+          <NavLink to="/funds" activeClassName="active">
+            Add Money
+          </NavLink>
         </li>
       </ul>
     </div>

@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 
 const WatchList = () => {
   return (
-    <div className="watchList">
+    <div className="row watchList">
       <Card className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12 ">
         <div className="p-3 glanceCart-details">
           <h1 className="fw-bold">Your Watchlist</h1>

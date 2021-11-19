@@ -6,7 +6,7 @@
 }
 .menuItems-nav_list li {
   color: #2c2c2c;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .menuItems-nav_list li span {
   text-transform: capitalize;
@@ -19,7 +19,7 @@ a {
 }
 a:hover {
   padding: 0.5rem 1rem;
-  margin-left: -1.2rem !important;
+  margin-left: -1rem !important;
   background-color: #f0f0f9;
   color: #2c2c2c !important;
   border-radius: 2rem;
@@ -27,7 +27,7 @@ a:hover {
 .active,
 .active:hover {
   padding: 0.5rem 1rem;
-  margin-left: -1.2rem !important;
+  margin-left: -1rem !important;
   background-color: #3781f1;
   color: #fff !important;
   border-radius: 2rem;

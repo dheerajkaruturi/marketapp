@@ -8,4 +8,6 @@ Main folder consists of the all the Components files that seen in the dashboard 
 
 orders and wishlist folder contains the wishlist items and the orders done by the user. And user can also place an order using the form that is creted in this Component
 
-Holdings folder consist of the shares that users bought
+Holdings folder consist of the shares that users bought.
+
+Funds component are present in adding funds folder.

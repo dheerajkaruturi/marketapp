@@ -1,0 +1,8 @@
+.showTransactions {
+  font-size: 0.7rem !important;
+  font-weight: 500;
+  margin-top: 1rem;
+  float: right;
+  color: #000;
+  cursor: pointer;
+}

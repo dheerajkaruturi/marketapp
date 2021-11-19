@@ -115,141 +115,149 @@ const HoldingsDetails = (props) => {
           </div>
         </div>
         <div className="row p-3">
-          <h2>Top Gainers in Market</h2>
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Stock</th>
-                  <th scope="col">Last Trading Point</th>
-                  <th scope="col">Present Value</th>
-                  <th scope="col">Change</th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>BHEL</td>
-                  <td>23.5 ₹</td>
-                  <td className="text-success fw-bold">↑ 26.55 ₹</td>
-                  <td className="text-success fw-bold">+3.05 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>John Jacob</td>
-                  <td>500.20 ₹</td>
-                  <td className="text-success fw-bold">↑ 2420.90 ₹</td>
-                  <td className="text-success fw-bold">+420.54 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>AAPL</td>
-                  <td>2000.36 ₹</td>
-                  <td className="text-success fw-bold">↑ 2420.90 ₹</td>
-                  <td className="text-success fw-bold">+420.54 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Google</td>
-                  <td>1000.36 ₹</td>
-                  <td className="text-success fw-bold">↑ 1420.90 ₹</td>
-                  <td className="text-success fw-bold">+420.54 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Microsoft</td>
-                  <td>2000.36 ₹</td>
-                  <td className="text-success fw-bold">↑ 2220.90 ₹</td>
-                  <td className="text-success fw-bold">+220.54 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <Card>
+              <div className="p-3">
+                <h2>Top Gainers in Market</h2>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Last Trading Point</th>
+                      <th scope="col">Present Value</th>
+                      <th scope="col">Change</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>BHEL</td>
+                      <td>23.5 ₹</td>
+                      <td className="text-success fw-bold">↑ 26.55 ₹</td>
+                      <td className="text-success fw-bold">+3.05 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>John Jacob</td>
+                      <td>500.20 ₹</td>
+                      <td className="text-success fw-bold">↑ 2420.90 ₹</td>
+                      <td className="text-success fw-bold">+420.54 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>AAPL</td>
+                      <td>2000.36 ₹</td>
+                      <td className="text-success fw-bold">↑ 2420.90 ₹</td>
+                      <td className="text-success fw-bold">+420.54 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Google</td>
+                      <td>1000.36 ₹</td>
+                      <td className="text-success fw-bold">↑ 1420.90 ₹</td>
+                      <td className="text-success fw-bold">+420.54 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Microsoft</td>
+                      <td>2000.36 ₹</td>
+                      <td className="text-success fw-bold">↑ 2220.90 ₹</td>
+                      <td className="text-success fw-bold">+220.54 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </Card>
           </div>
         </div>
         <div className="row p-3">
-          <h2>Top Losers in Market</h2>
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Stock</th>
-                  <th scope="col">Last Trading Point</th>
-                  <th scope="col">Present Value</th>
-                  <th scope="col">Change</th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>BHEL</td>
-                  <td>23.5 ₹</td>
-                  <td className="text-danger fw-bold">↓ 420.90 ₹</td>
-                  <td className="text-danger fw-bold">-80.70 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>John Jacob</td>
-                  <td>500.20 ₹</td>
-                  <td className="text-danger fw-bold">↓ 420.90 ₹</td>
-                  <td className="text-danger fw-bold">-80.70 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>AAPL</td>
-                  <td>2000.36 ₹</td>
-                  <td className="text-danger fw-bold">↓ 420.90 ₹</td>
-                  <td className="text-danger fw-bold">-80.70 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Google</td>
-                  <td>1000.36 ₹</td>
-                  <td className="text-danger fw-bold">↓ 420.90 ₹</td>
-                  <td className="text-danger fw-bold">-80.70 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Microsoft</td>
-                  <td>2000.36 ₹</td>
-                  <td className="text-danger fw-bold">↓ 420.90 ₹</td>
-                  <td className="text-danger fw-bold">-80.70 ₹</td>
-                  <td>
-                    <button className="badge bg-success">Buy</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <Card>
+              <div className="p-3">
+                <h2>Top Losers in Market</h2>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Last Trading Point</th>
+                      <th scope="col">Present Value</th>
+                      <th scope="col">Change</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>BHEL</td>
+                      <td>23.5 ₹</td>
+                      <td className="text-danger fw-bold">↓ 420.90 ₹</td>
+                      <td className="text-danger fw-bold">-80.70 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>John Jacob</td>
+                      <td>500.20 ₹</td>
+                      <td className="text-danger fw-bold">↓ 420.90 ₹</td>
+                      <td className="text-danger fw-bold">-80.70 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>AAPL</td>
+                      <td>2000.36 ₹</td>
+                      <td className="text-danger fw-bold">↓ 420.90 ₹</td>
+                      <td className="text-danger fw-bold">-80.70 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Google</td>
+                      <td>1000.36 ₹</td>
+                      <td className="text-danger fw-bold">↓ 420.90 ₹</td>
+                      <td className="text-danger fw-bold">-80.70 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Microsoft</td>
+                      <td>2000.36 ₹</td>
+                      <td className="text-danger fw-bold">↓ 420.90 ₹</td>
+                      <td className="text-danger fw-bold">-80.70 ₹</td>
+                      <td>
+                        <button className="badge bg-success">Buy</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
